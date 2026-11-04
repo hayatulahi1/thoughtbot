@@ -72,7 +72,7 @@ article h3 {
     color: #ffc726;
     text-decoration: none;
 }
-hr {
+.hr1 {
     color: #7b6e68;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -151,7 +151,8 @@ hr {
     color: #ffc726;
 }
 .d4 {
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     background-color: #2f1c1c;
     width: 900px;
     height: 250px;
@@ -186,4 +187,55 @@ hr {
     text-decoration: none;
     color: white;
     background-color: #e03131;
+}
+.d5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.p4 {
+    color: white;
+    font-size: 20px;
+}
+.a8 {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: #ffe7a3;
+    font-size: 20px;
+}
+.a8:hover {
+    color: #ffc726;
+    text-decoration: none;
+}
+.hr2 {
+    border: 1px solid #2f1c1c;
+    margin-bottom: 50px;
+}
+.p5 {
+    color: white;
+    font-size: 40px;
+}
+.p5:hover {
+    color: #ffc726;
+}
+.p6 {
+    color: white;
+    font-size: 23px;
+}
+.p7 {
+    color: white;
+    font-size: 23px;
+}
+.a9 {
+    color: #ffe783;
+}
+.a9:hover {
+    color: #ffc726;
+}
+.a91 {
+    color: white;
+}
+.a91:hover {
+    color: #ffc726;
 }
